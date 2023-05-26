@@ -38,4 +38,4 @@
 
 [Список всех "инфраструктурных" долкадов ОК](https://github.com/odnoklassniki/admins)
 
-[Получение доступов](https://confluence.vk.team/x/w-ScOQ)
+[Получение доступов](https://confluence.vk.team/display/EHOT/Access)
