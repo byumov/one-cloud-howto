@@ -1,0 +1,21 @@
+# https://cloud.admin.kc.odkl.ru/cloud/DC/ns/odkl/queue/ivan-buymov.users.idle
+type: service
+namespace: odkl
+name: one-cloud-demo
+queue: ivan-buymov.users.idle
+comment: one-cloud-demo
+alloc:
+  vcores: '4'
+  mem: 4G
+  lan_out: 100M
+  lan_in: 100M
+image:
+  name: oracle9-myapp
+  version: one-cloud-how-to
+storage: one-cloud-demo
+mounts:
+  data: /mnt/data
+timeouts:
+  deploy: 10m
+  start: 10m
+  stop: 10m

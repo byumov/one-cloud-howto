@@ -1,0 +1,9 @@
+[Unit]
+Description='my app'
+
+[Service]
+ExecStart=/opt/myapp/app
+Type=oneshot
+
+[Install]
+WantedBy=multi-user.target

@@ -1,0 +1,10 @@
+---
+templates:
+  - src: /etc/my-app/config.yaml.j2
+    dest: /etc/my-app/config.yaml
+
+  - content:  "{{ pms('test-property-one-cloud-demo') }}"
+    dest: /etc/my-app/from-pms.conf
+
+  # - content:  "{{ vault('secrets/test-service/password:value') }}"
+  #   dest: /etc/my-app/secret.txt

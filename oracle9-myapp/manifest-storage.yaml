@@ -1,0 +1,18 @@
+
+# https://cloud.admin.kc.odkl.ru/cloud/DC/ns/odkl/queue/ivan-buymov.users.idle
+type: storage
+namespace: odkl
+name: one-cloud-demo
+queue: ivan-buymov.users.idle
+comment: one-cloud-demo
+prealloc:
+  vcores: '4'
+  mem: 4G
+  lan_out: 100M
+  lan_in: 100M
+volumes:
+  data:
+    size: 1G
+    durability: persist
+    type: ssd
+

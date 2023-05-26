@@ -1,0 +1,11 @@
+[config]
+
+cpu_cores={{ env('cloud_real_cpus') }}
+
+hostname={{ env('cloud_hostname') }}
+
+key = value
+
+{% for number in range(10) %}
+    value{{ number }} = {{ number }}
+{% endfor %}
